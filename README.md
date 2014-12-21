@@ -1,4 +1,4 @@
-﻿How the code works.
+How the code works.
 The run_analysis.R script needs to be run from the root directory of the Samsung data files. 
 These can be installed by downloading the zipped up data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and then unzipping the resulting file to some chosen location on your filesystem. 
 The original data sets are described in detail in the following document http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -37,6 +37,7 @@ The run_analysis.R scripts carries out the following sequence of operations on t
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 4. Appropriately labels the data set with descriptive variable names - based on the names given in the features.txt file
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject and writes it out as a text file in tabular format with the first row being a header row whose entries name the corresponding columns and the remaining rows being the rows containing the various means of means values. The names for the columns, apart from the subject_id and activity_id columns are formed by taking the column names for the corresponding means and standard deviations and prefixing each name with the prefix MeanForRuns_
+
 
 
 
